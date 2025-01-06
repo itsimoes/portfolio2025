@@ -1,0 +1,62 @@
+.portfolio_container {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio_title {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px;
+}
+
+.underbar {
+    background-color: lawngreen;
+    width: 106px;
+    height: 3px;
+    margin-bottom: 10px;
+}
+
+.portfolio_cards_container {
+    width: 100%;
+    display: flex;    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* portfolio cards */
+
+.portfolio_card {
+    width: 50%;
+    max-width: 640px;
+    height: 250px;
+    padding: 30px;
+    background-color: #0a0a0a;
+    display: flex;    
+    align-items: center;
+    font-size: 30px;
+}
+
+#portfolio_card_01 {
+    background-image: url("../../../public/images/barros.png");
+    background-size: cover;
+}
+#portfolio_card_02 {
+    background-image: url("../../../public/images/nsadvocacia.png");
+    background-size: cover;
+}
+#portfolio_card_03 {
+    background-image: url("../../../public/images/restaurante.png");
+    background-size: cover;
+}
+#portfolio_card_04 {
+    background-image: url("../../../public/images/veterinaria.png");
+    background-size: cover;
+}
+#portfolio_card_05 {
+    background-image: url("../../../public/images/trekking.png");
+    background-size: cover;
+}

@@ -1,0 +1,24 @@
+.homeimgmpcup {
+    background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+}
+
+.home_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.home_container {
+    width: 100%;
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_h1 {
+    padding: 20px;
+}
