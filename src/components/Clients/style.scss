@@ -1,0 +1,28 @@
+.clients_container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.clients_underbar {
+    background-color: lawngreen;
+    width: 100px;
+    height: 3px;
+    margin-bottom: 10px;
+}
+
+.clients_card_container {
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center; 
+}
+
+.clients_logo { 
+    width: 100px;   
+    height: 100px;   
+}
+
+.clients_contato_link {
+    color: lawngreen;
+    text-decoration: underline white;
+    text-align: end;
+}
