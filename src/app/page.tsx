@@ -4,6 +4,7 @@ import Portfolio from "@/components/Portfolio/Portfolio";
 import Clients from "@/components/Clients/Clients";
 import Navbar from "@/components/Navbar/Navbar";
 import Support from "@/components/Support/Support";
+import About from "@/components/About/About";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Portfolio />
       <Clients />
       {/* <Support /> */}
+      {/* <About /> */}
     </>
   );
 }
