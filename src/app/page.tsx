@@ -8,11 +8,11 @@ import Support from "@/components/Support/Support";
 export default function Home() {
   return (
     <>
-      {/* <Navbar />
+      <Navbar />
       <Homepage />
       <Portfolio />
-      <Clients /> */}
-      <Support />
+      <Clients />
+      {/* <Support /> */}
     </>
   );
 }
