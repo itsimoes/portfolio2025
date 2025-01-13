@@ -16,7 +16,7 @@ const Clients = () => {
                     <a href="https://www.barrosconsultoriaeconcessoes.com/" target="_blank"><Image src={BarrosLogo} alt='' /></a>
                     <a href="https://itsimoes.github.io/ns-advocacia/" target="_blank"><Image src={NSLogo} alt='' /></a>
                 </div>
-                <div className='clients_contato_link'>Contato.</div>
+                <a href="https://wa.me/5598988533149" target='_blank'><div className='clients_contato_link'>Contato.</div></a>
             </div>
         </div>
     )
