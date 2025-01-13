@@ -34,7 +34,7 @@ const Support = () => {
         <Image className="support_image" src={img03} alt="" />
 
         </div>
-        <div className='support_contato_link'>Contato.</div>
+        <div className='support_contato_link'><a href="https://wa.me/5598988533149" target='_blank'>Contato.</a></div>
       </div>
     </div>
   )
