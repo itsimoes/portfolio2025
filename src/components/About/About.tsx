@@ -19,7 +19,7 @@ const About = () => {
                     <Image className="about_card_image" src={avatar} alt="" />
                 </div>
                 <div className="about_card_container">
-                    <p>Me envie uma mensagem no card ao lado ou entre em contato no whatsapp <a href="https://wa.me/5598988533149">+55 98 988533149</a>.</p>
+                    <p>Me envie uma mensagem através do email <a href='mailto:itsimoes1@gmail.com'>itsimoes1@gmail.com</a> ou entre em contato no whatsapp <a href="https://wa.me/5598988533149" target='_blank'>+55 98 988533149</a>.</p>
                 </div>
             </div>
         </div>
