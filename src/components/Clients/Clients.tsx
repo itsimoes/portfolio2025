@@ -6,7 +6,7 @@ import NSLogo from "../../../public/images/ns_logo.svg"
 
 const Clients = () => {
     return (
-        <div className="clients_wrapper">
+        <div id="clientes" className="clients_wrapper">
             <div className="clients_container">
                 <div className="clients_title">
                     <h2>Clientes.</h2>
