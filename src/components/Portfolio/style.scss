@@ -44,6 +44,8 @@
     max-width: 640px;
     height: 250px;
     background-color: #0a0a0a;
+    background-size: cover;
+
     display: flex;
     align-items: center;
     font-size: 30px;
@@ -77,26 +79,56 @@
 }
 
 #portfolio_card_01 {
-    background-image: url("../../../public/images/barros.png");
-    background-size: cover;
+    background-image: url("../../../public/images/barros.png");   
 }
 
 #portfolio_card_02 {
-    background-image: url("../../../public/images/nsadvocacia.png");
-    background-size: cover;
+    background-image: url("../../../public/images/nsadvocacia.png");   
 }
 
 #portfolio_card_03 {
-    background-image: url("../../../public/images/restaurante.png");
-    background-size: cover;
+    background-image: url("../../../public/images/restaurante.png");   
 }
 
 #portfolio_card_04 {
-    background-image: url("../../../public/images/veterinaria.png");
-    background-size: cover;
+    background-image: url("../../../public/images/veterinaria.png");   
 }
 
 #portfolio_card_05 {
-    background-image: url("../../../public/images/trekking.png");
-    background-size: cover;
+    background-image: url("../../../public/images/trekking.png");   
+}
+
+
+/* mobile version */
+
+@media screen and (max-width: 475px) {
+    .portfolio_card {
+        width: 50%;
+        height: 200px;
+    }
+
+    #portfolio_card_01 {
+        background-image: url("../../../public/images/barros.png");        
+        background-position: 60%;
+    }
+    
+    #portfolio_card_02 {
+        background-image: url("../../../public/images/nsadvocacia.png");        
+        background-position: 80%;
+    }
+    
+    #portfolio_card_03 {
+        background-image: url("../../../public/images/restaurante.png");                
+        background-position: 70%;
+    }
+    
+    #portfolio_card_04 {
+        background-image: url("../../../public/images/veterinaria.png");        
+        background-position: 70%;
+    }
+    
+    #portfolio_card_05 {
+        background-image: url("../../../public/images/trekking.png");        
+        background-position: 20%;
+    }
 }
