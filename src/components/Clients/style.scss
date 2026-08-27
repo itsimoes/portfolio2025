@@ -26,6 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .clients_logo {
@@ -39,4 +40,9 @@
     text-align: end;
     align-self: flex-end;
     margin-right: 50px;
+}
+
+#OGCLogo {
+    padding-left: 20px;
+    padding-right: 20px;
 }

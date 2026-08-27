@@ -3,6 +3,7 @@ import "./style.scss"
 import Image from 'next/image';
 import BarrosLogo from "../../../public/images/barros_logo.svg"
 import NSLogo from "../../../public/images/ns_logo.svg"
+import OGCLogo from "../../../public/images/ogc_logo.svg"
 
 const Clients = () => {
     return (
@@ -15,8 +16,9 @@ const Clients = () => {
                 <div className="clients_card_container">
                     <a href="https://www.barrosconsultoriaeconcessoes.com/" target="_blank"><Image src={BarrosLogo} alt='' /></a>
                     <a href="https://itsimoes.github.io/ns-advocacia/" target="_blank"><Image src={NSLogo} alt='' /></a>
+                    <a id="OGCLogo" href="https://ogc.eng.br/" target="_blank"><Image src={OGCLogo} alt='' /></a>
                 </div>
-                <a href="https://wa.me/5598988533149" target='_blank'><div className='clients_contato_link'>Contato.</div></a>
+                <a href="https://wa.me/5598970128613?text='Olá, gostaria de fazer um orçamento!'" target='_blank'><div className='clients_contato_link'>Contato via whatsapp.</div></a>
             </div>
         </div>
     )
