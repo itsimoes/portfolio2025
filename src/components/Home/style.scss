@@ -5,6 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .homeLOGO {
@@ -31,9 +32,66 @@
     padding: 20px;
 }
 
+/* From Uiverse.io by BHARGAVPATEL1244 */ 
+.homeButton {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    margin-top: 3em;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #2fff00;
+    color: #f2f2f2;
+}
+
+.homeButton span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+
+.homeButton:hover span {
+    color: black;
+}
+
+.homeButton::before,
+.homeButton::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.homeButton::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+}
+
+.homeButton:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+
+
 @media screen and (max-width: 475px) {
   .home_h1 {
     font-size: 30px;
     text-align: center;
   }   
 }
+
